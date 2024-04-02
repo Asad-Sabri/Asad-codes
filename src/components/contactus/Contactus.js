@@ -152,15 +152,16 @@ export default function Contactus() {
                     </a>
                   </div>
                   <div className="contact-map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5911.808310783564!2d74.43975559163924!3d31.592656892443884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391911a59288f2c3%3A0x3cf71bbff9333b48!2sAl%20Raheem%20Garden%20Phase%205!5e0!3m2!1sen!2s!4v1712001985089!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                      {/* frameBorder="0"
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5911.808310783564!2d74.43975559163924!3d31.592656892443884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391911a59288f2c3%3A0x3cf71bbff9333b48!2sAl%20Raheem%20Garden%20Phase%205!5e0!3m2!1sen!2s!4v1712001985089!5m2!1sen!2s"
+                      frameBorder="0"
                       allowFullScreen=""
                       aria-hidden="false"
                       title="Contact Me"
                       tabIndex="0"
                       loading="lazy"
                       className=""
-                    ></iframe> */}
+                    ></iframe>
                   </div>
                 </Col>
               </Row>
