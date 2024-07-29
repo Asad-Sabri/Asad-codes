@@ -35,7 +35,7 @@ function EducationJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2008 - 2018"
+          date="2005 - 2015"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
@@ -46,7 +46,7 @@ function EducationJourney() {
             Knowledge House School System
           </h4>
           <p>
-            Studied here from Class 1 to 5th as a part of secondary school
+            Studied here from Class 1 to 10th as a part of secondary school
             Certificate and gain GPA 5 in my SSC Examination.
           </p>
         </VerticalTimelineElement>
@@ -54,42 +54,42 @@ function EducationJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2018 - 2023"
+          date="2015 - 2017"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
           <h4 className="vertical-timeline-element-title">
-            Bachlors
+          Intermediate
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
             Allam Iqbal Open University, Lahore, Pakistan
           </h4>
           <p>
-            Studied Program in Computer Technology from Allama Iqbal Open University and gain CGPA 2.98.
+            Studied Program in Computer Technology from Allama Iqbal Open University
           </p>
         </VerticalTimelineElement>
-        {/* <VerticalTimelineElement
+        <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2019 - 2023"
+          date="2018 - 2022"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
           <h4 className="vertical-timeline-element-title">GRADUATION</h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Sonargaon University, Dhaka
+            University of the Punjab
           </h4>
           <p>
             Studied Bachelor of Science degree in Computer Science and
-            Engineering field from Sonargaon University and gain CGPA 3.44.
+            Engineering field from Punjab University and gain CGPA 3.44.
           </p>
-        </VerticalTimelineElement> */}
+        </VerticalTimelineElement>
 
-        {/* <VerticalTimelineElement
+        <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
           icon={<StarIcon />}
-        /> */}
+        />
       </VerticalTimeline>
     </div>
   );

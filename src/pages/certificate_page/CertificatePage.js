@@ -16,6 +16,15 @@ import graphics from "../../images/Graphics_Design.jpg";
 import Particle from "../../Particle";
 export default function CertificatePage() {
   return (
+    <>
+    {/* <section className="home-section">
+            <Container fluid id="home ">
+                <Particle />
+                <Container className="home-content d-flex justify-content-center align-items-center comingsoonclass my-5">
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_zkzzfkke.json"  background="transparent"  speed="1"  style={{width: '40%', height: '100%'}}  loop  autoplay></lottie-player>
+                </Container>
+            </Container>
+        </section> */}
     <section className="home-section">
       <Container fluid id="home">
         <Particle />
@@ -782,5 +791,6 @@ export default function CertificatePage() {
         </Container>
       </Container>
     </section>
+    </>
   );
 }

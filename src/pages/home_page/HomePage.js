@@ -16,7 +16,7 @@ export default function Home() {
     <section className="home-section">
       <Container fluid id="home">
         <Particle />
-        <Container className="home-content">
+        <Container className="home-content my-5 ">
           <Row>
             <Col md={8} className="home-header">
               <h1
@@ -41,7 +41,7 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/MD-MAFUJUL-HASAN"
+                      href="https://github.com/CW-Asad"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -51,7 +51,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                      href="https://www.linkedin.com/in/asad-sabri-424b5a226/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -61,7 +61,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.instagram.com/_md_mafujul_hasan_/"
+                      href="https://www.instagram.com/asad_mughal_55/?hl=en"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -71,7 +71,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
+                      href="https://www.facebook.com/asad.sabri.756"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -81,7 +81,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="mailto:mdtonmoy13.mt@gmail.com/"
+                      href="mailto:asad.sabri19@gmail.com/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -93,13 +93,15 @@ export default function Home() {
               </div>
             </Col>
             <Col md={4} style={{ paddingBottom: 20 }}>
-              <div className="img-home-main">
+              <div className="">
                 <Tilt>
                   <Fade cascade>
                     <img
-                      src="./profile.jpeg"
+                      src="./my.png"
                       alt="home pic"
-                      className="img-fluid"
+                      className=""
+                      style={{borderRadius:'60%'}}
+                      
                     />
                   </Fade>
                 </Tilt>
@@ -109,7 +111,7 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      <Certification />
+      {/* <Certification /> */}
       <Projects />
       <Contactus />
     </section>

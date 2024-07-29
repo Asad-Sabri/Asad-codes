@@ -10,12 +10,23 @@ import python from "../../images/python.png";
 import iq from "../../images/IQ_Test.jpg";
 import computer from "../../images/Computer_knowledge.jpg";
 import Fade from "react-reveal/Fade";
+import { Bounce } from "react-reveal";
+import Particle from "../../Particle";
 
 export default function Certificate() {
   return (
     <div className="mt-5">
-      <Container>
-        {/* <Bounce left cascade> */}
+      <section className="home-section">
+            <Container fluid id="home" >
+                <Particle />
+                <Container className="home-content d-flex justify-content-center align-items-center comingsoonclass">
+
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_zkzzfkke.json"  background="transparent"  speed="1"  style={{width: '40%', height: '100%'}}  loop  autoplay></lottie-player>
+                </Container>
+            </Container>
+        </section>
+      {/* <Container>
+        <Bounce left cascade>
         <Fade left cascade duration={1000} distance="20px">
           <Row className="g-5">
             <Col md={4}>
@@ -74,9 +85,9 @@ export default function Certificate() {
               />
             </Col>
           </Row>
-          {/* </Bounce> */}
         </Fade>
-      </Container>
+          </Bounce>
+      </Container> */}
     </div>
   );
 }

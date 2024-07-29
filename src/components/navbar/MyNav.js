@@ -35,8 +35,8 @@ export default function MyNav() {
       <Container>
         <Navbar.Brand href="/">
           <div className="d-flex flex-row justify-content-between">
-            <img src="./profile.jpeg" className="img-fluid logo" alt="brand" />
-            <h5
+            <img src="./logo.png" className="img-fluid logo" alt="brand" />
+            {/* <h5
               id="navhead"
               style={{
                 marginLeft: "21px",
@@ -45,7 +45,7 @@ export default function MyNav() {
               }}
             >
               Asad Sabri
-            </h5>
+            </h5> */}
           </div>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -89,7 +89,7 @@ export default function MyNav() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/certificatepage"
@@ -97,7 +97,7 @@ export default function MyNav() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item>*/}
 
             <Nav.Item>
               <Nav.Link
@@ -107,11 +107,11 @@ export default function MyNav() {
               >
                 <FaBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> 
 
-            <Nav.Item className="fork-btn">
+            <Nav.Item className="fork-btn mx-5">
               <Button
-                href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                href="https://github.com/CW-Asad"
                 target="_blank"
                 className="fork-btn-inner"
               >

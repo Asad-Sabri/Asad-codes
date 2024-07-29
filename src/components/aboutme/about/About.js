@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       <Container>
-        {/* <Slide left > */}
+        <Slide left >
         <Row className="mt-5">
           <Col md={5}>
             {/* <GreetingLottie animationPath="/lottie/coding.json" /> */}
@@ -30,7 +30,7 @@ const About = () => {
               <p className="home-about-body">
                 My name is <b className="purple">Asad Sabri </b> 
                   and I am a <b className="purple">Computer Science and Engineering </b> 
-                    student at <b className="purple">Allama Iqbal Open University </b>
+                    student at <b className="purple">University of the Punjab </b>
                       in Punjab, Pakistan.
                 <br />
                 <br />
@@ -62,7 +62,7 @@ const About = () => {
             </Fade>
           </Col>
         </Row>
-        {/* </Slide> */}
+        </Slide>
       </Container>
     </div>
   );
