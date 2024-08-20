@@ -18,9 +18,9 @@ function ProjectJourney() {
         <Link className="btn btn-primary m-1" to="/educationjourney">
           Educational Journey
         </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
+        {/* <Link className="btn btn-primary m-1" to="/experiencejourney">
           Experience Journey
-        </Link>
+        </Link> */}
         <Link className="btn btn-primary m-1" to="/technicaljourney">
           Technical Journey
         </Link>

@@ -26,9 +26,9 @@ function TechnicalJourney() {
         <Link className="btn btn-primary m-1" to="/educationjourney">
           Educational Journey
         </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
+        {/* <Link className="btn btn-primary m-1" to="/experiencejourney">
           Experience Journey
-        </Link>
+        </Link> */}
         <Link className="btn btn-primary m-1" to="/technicaljourney">
           Technical Journey
         </Link>
@@ -51,7 +51,7 @@ function TechnicalJourney() {
           icon={<ComputerIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            C PROGRAMMING LANGUAGE
+            React
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -84,7 +84,7 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiPython />}
         >
-          <h3 className="vertical-timeline-element-title">PYTHON</h3>
+          <h3 className="vertical-timeline-element-title">Next</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -154,7 +154,7 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiReact />}
         >
-          <h3 className="vertical-timeline-element-title">REACT</h3>
+          <h3 className="vertical-timeline-element-title">Codeigniter</h3>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

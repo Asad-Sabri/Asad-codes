@@ -43,7 +43,7 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://github.com/CW-Asad/"
+              href="https://github.com/Asad-Sabri/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"

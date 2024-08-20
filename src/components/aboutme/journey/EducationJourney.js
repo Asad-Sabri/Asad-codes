@@ -15,9 +15,9 @@ function EducationJourney() {
         <Link className="btn btn-primary m-1" to="/educationjourney">
           Educational Journey
         </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
+        {/* <Link className="btn btn-primary m-1" to="/experiencejourney">
           Experience Journey
-        </Link>
+        </Link> */}
         <Link className="btn btn-primary m-1" to="/technicaljourney">
           Technical Journey
         </Link>
@@ -47,7 +47,6 @@ function EducationJourney() {
           </h4>
           <p>
             Studied here from Class 1 to 10th as a part of secondary school
-            Certificate and gain GPA 5 in my SSC Examination.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -62,7 +61,7 @@ function EducationJourney() {
           Intermediate
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Allam Iqbal Open University, Lahore, Pakistan
+            Allama Iqbal Open University, Lahore, Pakistan
           </h4>
           <p>
             Studied Program in Computer Technology from Allama Iqbal Open University
@@ -82,7 +81,7 @@ function EducationJourney() {
           </h4>
           <p>
             Studied Bachelor of Science degree in Computer Science and
-            Engineering field from Punjab University and gain CGPA 3.44.
+            Engineering field from Punjab University and gain CGPA 3.4.
           </p>
         </VerticalTimelineElement>
 

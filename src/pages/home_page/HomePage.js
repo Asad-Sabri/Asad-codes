@@ -7,8 +7,7 @@ import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
-import Certification from "../../components/certificate/Certification";
-import Projects from "../../components/projects/Projects";
+
 import Contactus from "../../components/contactus/Contactus";
 
 export default function Home() {
@@ -41,7 +40,7 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/CW-Asad"
+                      href="https://github.com/Asad-Sabri"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -99,7 +98,9 @@ export default function Home() {
                     <img
                       src="./my.png"
                       alt="home pic"
-                      className=""
+                      // className=""
+                      width="100%"
+                      height="100%"
                       style={{borderRadius:'60%'}}
                       
                     />
@@ -111,8 +112,6 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      {/* <Certification /> */}
-      <Projects />
       <Contactus />
     </section>
   );
