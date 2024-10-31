@@ -105,7 +105,7 @@ export default function Contactus() {
                       <div className="submit-btn">
                         <button
                           type="submit"
-                          className="submitBtn"
+                          className="submitBtn" 
                           onClick={handleSubmit}
                         >
                           Submit
@@ -125,7 +125,7 @@ export default function Contactus() {
                         <FiAtSign />
                       </div>
                       <p style={{ color: "#fbd9ad" }}>
-                        asad.sabri19@gmail.com
+                        asad.mughal9071@gmail.com
                       </p>
                     </a>
                     <a
