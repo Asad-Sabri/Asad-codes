@@ -91,7 +91,7 @@ export default function Home() {
                 </ul>
               </div>
             </Col>
-            <Col md={4} style={{ paddingBottom: 20 }}>
+            <Col md={4} style={{ paddingBottom: 20 }}> 
               <div className="">
                 <Tilt>
                   <Fade cascade>
